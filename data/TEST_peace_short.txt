@@ -1,0 +1,11 @@
+		Australia	New Zealand	Sweden	Austria	Belgium	Denmark	Norway	Finland	Netherlands	Czech Republic
+yogurt	1	1733	382	4	13	16	1	1	4	2	3
+airplane	2	1830	191	133	8	60	8	0	6	23	5
+esthetic	3	2792	243	12	0	65	11	0	9	37	3
+aging	4	1468	125	2	0	112	2	0	5	8	6
+aluminum	5	10047	503	369	178	331	55	249	17	246	16
+amortization	6	11624	817	4727	539	652	1456	2993	1343	1276	41
+amortize	7	701	9	35	50	37	137	85	52	29	2
+analog	8	4262	50	89	5	202	137	79	5	60	1
+analyze	9	13068	667	346	18	1010	199	54	121	277	47
+annex	10	625	68	1	3	1434	16	14	3	47	11
