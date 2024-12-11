@@ -4,3 +4,5 @@ Programs to analyze the LexisNexis Data, Spring 2024
 initial_script_v1.ipynb contains the code for the Peace Project for the spring.
 
 final_script.ipynb contains the code to compare the model trained on Lexis-Nexis data on the Twitter and News dataset.
+
+embedding_generation.ipynb has the code for the Kmeans + graph generation using LLMs
