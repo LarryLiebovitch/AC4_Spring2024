@@ -11873,3 +11873,100 @@ Alternately, you can install this by running `pip install pycaret[models]`
 2024-01-15 17:49:50,980:INFO:             prophet: Not installed
 2024-01-15 17:49:50,980:INFO:None
 2024-01-15 17:49:50,980:INFO:Set up data.
+2024-01-15 17:49:52,482:INFO:Set up folding strategy.
+2024-01-15 17:49:52,482:INFO:Set up train/test split.
+2024-01-15 17:49:52,553:INFO:Set up index.
+2024-01-15 17:49:52,553:INFO:Assigning column types.
+2024-01-15 17:49:52,572:INFO:Engine successfully changes for model 'lr' to 'sklearn'.
+2024-01-15 17:49:52,603:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2024-01-15 17:49:52,604:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2024-01-15 17:49:52,623:INFO:Soft dependency imported: xgboost: 2.0.0
+2024-01-15 17:49:52,625:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-01-15 17:49:52,656:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2024-01-15 17:49:52,656:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2024-01-15 17:49:52,675:INFO:Soft dependency imported: xgboost: 2.0.0
+2024-01-15 17:49:52,677:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-01-15 17:49:52,678:INFO:Engine successfully changes for model 'knn' to 'sklearn'.
+2024-01-15 17:49:52,709:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2024-01-15 17:49:52,727:INFO:Soft dependency imported: xgboost: 2.0.0
+2024-01-15 17:49:52,729:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-01-15 17:49:52,760:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2024-01-15 17:49:52,779:INFO:Soft dependency imported: xgboost: 2.0.0
+2024-01-15 17:49:52,781:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-01-15 17:49:52,781:INFO:Engine successfully changes for model 'rbfsvm' to 'sklearn'.
+2024-01-15 17:49:52,832:INFO:Soft dependency imported: xgboost: 2.0.0
+2024-01-15 17:49:52,834:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-01-15 17:49:52,884:INFO:Soft dependency imported: xgboost: 2.0.0
+2024-01-15 17:49:52,887:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-01-15 17:49:52,888:INFO:Preparing preprocessing pipeline...
+2024-01-15 17:49:52,893:INFO:Set up simple imputation.
+2024-01-15 17:49:53,103:INFO:Finished creating preprocessing pipeline.
+2024-01-15 17:49:53,142:INFO:Pipeline: Pipeline(memory=FastMemory(location=C:\Users\91987\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['yogurt', 'airplane', 'esthetic',
+                                             'aging', 'aluminum',
+                                             'amortization', 'amortize',
+                                             'analog', 'analyze', 'annex',
+                                             'apologize', 'armor', 'artifact',
+                                             'authorization', 'authorize',
+                                             'authorized', 'ax', 'behavior',
+                                             'behavioral'...
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='mean',
+                                                              verbose='deprecated'))),
+                ('categorical_imputer',
+                 TransformerWrapper(exclude=None, include=[],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='most_frequent',
+                                                              verbose='deprecated')))],
+         verbose=False)
+2024-01-15 17:49:53,142:INFO:Creating final display dataframe.
+2024-01-15 17:49:53,576:INFO:Setup _display_container:                     Description             Value
+0                    Session id               123
+1                        Target            target
+2                   Target type            Binary
+3           Original data shape       (20, 11901)
+4        Transformed data shape       (20, 11901)
+5   Transformed train set shape       (18, 11901)
+6    Transformed test set shape        (2, 11901)
+7              Numeric features             11900
+8                    Preprocess              True
+9               Imputation type            simple
+10           Numeric imputation              mean
+11       Categorical imputation              mode
+12               Fold Generator   StratifiedKFold
+13                  Fold Number                10
+14                     CPU Jobs                -1
+15                      Use GPU             False
+16               Log Experiment             False
+17              Experiment Name  clf-default-name
+18                          USI              e530
+2024-01-15 17:49:53,632:INFO:Soft dependency imported: xgboost: 2.0.0
+2024-01-15 17:49:53,634:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-01-15 17:49:53,692:INFO:Soft dependency imported: xgboost: 2.0.0
+2024-01-15 17:49:53,694:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2024-01-15 17:49:53,695:INFO:setup() successfully completed in 2.73s...............
